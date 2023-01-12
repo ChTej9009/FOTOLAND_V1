@@ -1,0 +1,107 @@
+/* common css styling in all pages */
+
+*{
+margin: 0;
+padding: 0;
+
+transition: all 0.2s ease-in-out;
+} 
+
+body{
+background-color: #ccc;
+width:100%;
+
+}
+
+/* Importing fonts using font-face rule */
+@font-face {
+font-family: mainFont;
+src: url("Pacifica Condensed Regular.otf");
+}
+@font-face {
+font-family: paraFont;
+src: url(PatrickHand-Regular.ttf);
+}
+
+/* Sticky Navbar fixed at top*/
+.navigation-menu{
+    box-sizing: border-box;
+display: flex;
+flex: 1;
+position: fixed;
+top: 0;
+padding: 10px;
+background-color: #91060F ;
+width: 100%;
+/* max-height: 50px; */
+min-height: 30px;
+}
+
+.navigation-items{
+display: flex;
+flex: auto;
+gap: 10px;
+justify-content:center;
+align-items: center;
+ } 
+
+.navigation-items>a{
+font-size:3vw;
+/* font-size:15px; */
+font-family: mainFont,'Times New Roman', Times, serif;
+/* font-weight: 500; */
+text-decoration: overline;
+padding: 5px;
+color: #ccc;
+cursor:pointer;
+}
+
+.navigation-items>a:hover{
+color:orange;
+text-decoration: line-through;
+}
+
+
+/* Footer-fixed at bottom */
+.copyright{
+    position:fixed;
+    bottom:0;
+    background-color:#91060F;
+    width: 100%;
+    /* max-height: 30px; */
+    text-align: center;
+}
+.copyright p{
+    font-size: 2vw;
+    font-family: mainFont;
+    color:#ccc ;
+    padding: 10px;
+}
+
+/* Specific styling to About Page-Flexible layout using flex */
+.AboutUs{
+   
+    display: flex;
+    flex: 1;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-bottom:100px;
+}
+#About-Logo{
+    padding-top: 100px;
+    /* margin-top: min(100px, 50px); */
+    width:25vw;
+    /* height: 50%; */
+}
+.AboutUs >.p1, .p2, .p3{
+    font-family: paraFont;
+    color:rgb(53, 113, 143);
+    text-align: center;
+    font-size: min(20px, 3vw);
+    padding: 20px 25px 25px 25px;
+}
+

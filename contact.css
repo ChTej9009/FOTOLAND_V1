@@ -1,0 +1,38 @@
+     /* Sticky Navbar fixed at top*/
+     .navigation-menu{
+        justify-content: space-between;
+     }
+    
+    .navigation-items{
+        justify-content:right;
+     } 
+
+    .navigation-menu .logo a img{
+      width: 75px;
+        padding-right:20px;
+     }
+
+     /* Specific styling to About Page-Flexible layout using flex */
+     
+   /* contact us */
+   #ContactUs
+   {
+   background-color: #91c0d7;
+   display:flex;
+   height: 100vh;
+    flex-direction: column;  text-align: center;
+   color:azure;
+padding:20vh 5vh;
+   }
+#ContactUs>h1
+   {
+   font-family: mainFont;
+   font-size: 15vh;
+   }
+#ContactUs>p
+   {
+   font-family: paraFont;
+   margin:0px;
+   font-size: 5vh;
+   text-align: center;
+   }

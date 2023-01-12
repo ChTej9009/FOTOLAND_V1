@@ -1,0 +1,161 @@
+    /* Sticky Navbar fixed at top*/
+    .navigation-menu{
+        justify-content: space-between;
+     }
+    
+    .navigation-items{
+        justify-content:right;
+     } 
+
+    .navigation-menu .logo a img{
+        width: 75px;
+        padding-right:20px;
+     }
+
+     /* Specific styling to About Page-Flexible layout using flex */   
+/* Services */
+#Services
+{
+display:flex;
+justify-content:center ;
+align-items: center;
+background-color:goldenrod;
+width:100%;
+height:100vh;
+padding-top: 50px;
+gap: 5px;
+}
+.servicehead
+{
+font-family: mainFont;
+margin:0px;
+font-size: 2vw;
+border: 2px solid brown;
+padding: 10px;
+writing-mode: vertical-lr;
+text-orientation:upright;
+
+/* padding: 160px 0px 50px 0px; */
+color:peachpuff;
+}
+
+/* photography services */
+.photo
+{
+display:flex;
+flex: 1;
+/* height: 50vh; */
+/* padding-top: 30vh; */
+flex-direction: column;  
+text-align: center;
+margin-right:10px;
+justify-content: center;
+}
+header.photography
+{
+font-family: mainFont;
+background-color: #786B34;
+color:#879399;
+font-size: 2vw;
+}
+.photographyservices
+{
+font-family: paraFont;
+font-size: 1.5vw;
+padding: 20px;
+background-color: #B3B3B3;
+text-align: left;
+color:#786B34; 
+}
+.photofooter
+{
+background-color: #786B34;
+}
+
+/* videography services */
+.video
+{
+display:flex;
+flex: 1;
+/* height: 50vh; */
+flex-direction: column;  
+text-align: center;
+margin-right:10px;
+justify-content: center;
+}
+header.videography
+{
+font-size: 2vw;
+font-family: mainFont;
+background-color:#879399;
+color:#2F302F;
+}
+.videographyservices
+{
+font-size: 1.5vw;
+font-family: paraFont;
+text-align: left;
+padding: 20px;
+background-color: #EDEDED;
+color:#879399;
+}
+.videofooter
+{
+background-color: #879399;
+}
+
+/* graphic */
+.graphic
+{
+display:flex;
+flex: 1;
+/* height: 50vh; */
+flex-direction: column;  
+text-align: center;
+margin-right:10px;
+justify-content: center;
+}
+header.graphics
+{
+font-size: 2vw;
+font-family: mainFont;
+background-color:#3b4952;
+color:#786B34;
+}
+.graphicservices
+{
+font-size: 1.5vw;
+font-family: paraFont;
+text-align: left;
+padding: 20px 0px 20px 20px;
+background-color: #4BD1A0;
+/* color:#13191D; */
+color:#3b4952;
+}
+.graphicfooter
+{
+/* background-color:#13191D; */
+background-color:#3b4952;
+}
+
+.photographyservices, .graphicservices, .videographyservices
+{
+height:40vh;
+}
+
+/* icons */
+#cam_png
+{
+width:40px;
+height: 40px;
+}
+#vid_png
+{
+width:40px;
+height: 40px;
+}
+#des_png
+{
+width:40px;
+height: 40px;
+}
