@@ -1,6 +1,7 @@
           /* Sticky Navbar fixed at top*/
   .navigation-menu{
     justify-content: space-between;
+    align-items: center;
  }
 
 .navigation-items{
